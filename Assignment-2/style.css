@@ -1,0 +1,71 @@
+body{
+  padding: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+#first {
+  background-color: rgb(6, 152, 243);
+  width: 75%;
+  height: 138px;
+  margin-left: 180px;
+  border-bottom: 15px solid rgb(218, 210, 212);
+}
+h2{
+  color: white;
+  text-align: center;
+  padding: 25px 25px 0px;
+}
+h4 {
+  color: white;
+  text-align: center;
+}
+h3 {
+  margin-left: 180px;
+  color: rgb(6, 152, 243);
+  padding: 5px;
+}
+p{
+  margin-left: 190px;
+}
+ul
+{
+  margin-left: 200px;
+  padding: 4px;
+}
+input[type="submit"] {
+  background-color: rgb(6, 152, 243);
+  width: 73%;
+  color: white;
+  padding: 10px;
+  border-top: 2px solid rgb(131, 128, 128);
+  border-left: 2px solid rgb(131, 128, 128);
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+label{
+   margin-left: 190px;
+  margin-top: 12px; 
+}
+input,
+textarea {
+  width: 72%;
+  margin-left: 190px;
+  padding: 5px;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+/* form input:focus,form textarea:focus{
+  border-color: rgb(6, 152, 243);
+  outline: none;
+} */
+#footer {
+  background-color: rgb(37, 37, 37);
+  text-align: center;
+  width: 75%;
+  margin-left: 180px;
+  height: 60px;
+  color: white;
+  padding-top: 35px;
+  margin-top: 20px;
+  border-top: 20px solid rgb(218, 210, 212);
+  border-bottom: 100px solid rgb(218, 210, 212);
+}
