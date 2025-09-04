@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+}
+
+.header div h1 {
+    padding: 25px 35px;
+    font-size: 38px;
+}
+
+.horizontalnavbar,
+a {
+    background-color: rgb(236, 11, 86);
+}
+
+.horizontalnavbar {
+    padding: 15px 0;
+}
+
+.nav {
+    margin-left: 50px;
+}
+
+.horizontalnavbar a {
+    color: black;
+    text-decoration: none;
+    padding: 0 6px;
+    border-right: 1px solid #333;
+    font-weight: 550;
+    font-size: 19px;
+    background-color: rgb(236, 11, 86);
+}
+
+.horizontalnavbar #none {
+    border: none;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+#content {
+    border: 1px solid #333;
+    width: 80vw;
+    padding: 25px;
+}
+
+#content h1 {
+    font-size: 38px;
+    padding: 15px;
+}
+
+#content p,
+li {
+    font-size: 18px;
+    font-weight: 550;
+    padding: 0px 25px;
+}
+
+#content #downpara {
+    padding: 30px 25px;
+}
+
+.verticalnavbar {
+    border: 1px solid #333;
+    width: 19vw;
+    position: absolute;
+    top: 146px;
+    left: 72em;
+    padding: 30px;
+    padding-top: 80px;
+    height: 459px;
+}
+
+.verticalnavbar a {
+    display: block;
+    padding: 30px 0;
+    padding-left: 80px;
+    text-decoration: none;
+}
+
+.verticalnavbar,
+a {
+    background-color: #ffffff;
+}
+
+#footercontent {
+    background-color: rgb(236, 11, 86);
+    color: white;
+    text-align: right;
+    padding: 10px 0;
+    height: 45px;
+}
